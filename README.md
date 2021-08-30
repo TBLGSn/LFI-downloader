@@ -11,6 +11,7 @@ from lxml import etree
 # 用法
 ```c++
 // 激活虚拟环境
-source py/bin/activate
+linux:source py/bin/activate
+windows: .\Scripts\activate.bat
 python main.py [这里是上面地址出的图片链接]
 ```

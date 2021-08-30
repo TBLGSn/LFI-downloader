@@ -21,9 +21,9 @@ def getrealurl(url):
 # 下载并存储图片
 def download_and_Saveimage(realurl, name):
     if( realurl ):
-        print( "realurl空"+ "\n")
+        print( "realurl为"+ realurl + "\n")
     if( name ):
-        print( "name为空"+ "\n") 
+        print( "name为空"+ name +"\n") 
     image = requests.get(realurl)
     with open(name,"wb") as f:
         f.write(image.content)
